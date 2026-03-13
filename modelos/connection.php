@@ -13,7 +13,7 @@
             $this->host = "localhost";
             $this->usuario = "root";
             $this->pass = "";
-            $this->db = "ejemplophp";
+            $this->db = "bd_usuario_test";
 
             //conexion a la base de datos
             $this->con = mysqli_connect($this->host, $this->usuario, $this->pass, $this->db);
