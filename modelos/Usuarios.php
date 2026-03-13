@@ -28,3 +28,4 @@ class Usuarios
 
 $usuarios = new Usuarios();
 $usuarios->listar();
+echo "hola";
